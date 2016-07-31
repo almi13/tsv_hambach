@@ -1,0 +1,283 @@
+.resetcontainer .container { width: 100%; margin: 0!important; padding: 0; }
+.dlh_googlemap iframe { width: 100%; height:300px; } 
+.img-circle img { border-radius: 50%; }
+.text-center .img-responsive { margin: auto; }
+.slider-control { display: none; }
+.floatright {float: right; }
+.bangb1 h1 { margin-bottom: 0; padding-bottom: 0; } 
+.float_right { float: right; }
+
+.ce_gallery  ul { margin:0; padding:0; list-style-type: none; }
+.ce_gallery li { display: block; float: left; }
+
+#header .mod_navigation {}
+#header .mod_navigation ul { margin: ; margin:0; list-style-type: none;}
+#header .mod_navigation ul li { float: none;}
+.highlight { border-bottom: 1px dotted #222; }
+.invisible { display: none; }
+
+/* table */
+#main .ce_table table { width: 100%; border-collapse: collapse; }
+#main .ce_table th { text-align: left; }
+#main .ce_table th, #main .ce_table td { padding: 5px; border-bottom: 1px dotted #e7e7e7;  }
+#main .ce_table tr { 	
+	-moz-transition: background .2s; 
+	-webkit-transition: background .2s; 
+	transition: background .2s; 
+}
+#main .ce_table tr:hover { background: #e7e7e7; }
+form .widget { margin: 10px 0 ; }
+
+/*input and label */
+.checkbox_container span { display: block; margin: 3px 0; }
+span.mandatory { color: red;}
+/* akkordeon */
+.ce_accordion .toggler { cursor: pointer; padding: 10px; margin: 1px 0; font-weight: 600;
+-moz-transition: background .5s;
+-webkit-transition: background .5s;
+transition: background .5s;
+}
+.ce_accordion .accordion  { padding: 10px 0px; } 
+
+.mod_nl_list ul,
+.mod_faqlist ul,
+.ce_downloads ul { padding-left:0; }
+
+/* eventcal */
+/*
+.mod_calendar table.calendar { width: 100%; border-collapse:collapse;  }
+.mod_calendar table.calendar th, .mod_calendar table.calendar td { padding: 5px; text-align: center; }
+.mod_calendar table.calendar td { border: 1px dotted #ccc;   }
+.mod_calendar table.calendar th.head  { border: 0; font-size: 16px; font-weight: normal; }
+*/
+/* breadcrumb */
+.mod_breadcrumb li, .mod_breadcrumb li a { float: left; line-height:normal; font-size: 12px; }
+.mod_breadcrumb li a { padding: 0 5px 0 0; text-decoration: underline; }
+.mod_breadcrumb li a:after { content:" > "; color: #666; }
+
+/* lists and entries separation */
+.mod_search .even, .mod_search .odd,
+.mod_nl_list ul li,
+.mod_eventlist .event-entry,
+.ce_downloads ul li { padding: 5px 0;  border-bottom: 1px solid #e7e7e7; overflow: hidden; }
+
+.mod_faqlist ul li { padding: 10px; margin: 10px 0; overflow: hidden; background: #ddd; }
+
+.mod_search span.relevance,
+.ce_downloads ul li span.size { font-size: 12px; }
+
+/* login */
+.mod_login input.submit { width: auto; margin-top: 20px; } 
+
+
+/* dropdown navi */
+.mainnavi ul { padding: 0; margin:0; list-style-type: none;}
+
+/* #header .mod_navigation ul li { float: left;} must be set, too */
+#header .mainnavi ul li { float: left;}
+.headerrelativeclass { position: relative; float: right; width: 600px; } /* substitute for the header relative property to position absolute object in the header */
+#header .inside { position:inherit; } /* most important */
+#header .mainnavi  ul.level_2 { width: 200px; position: absolute; /* display: none; */ visibility:hidden; opacity: 0;z-index:999; 
+-moz-box-shadow: 0 0 3px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.6);
+box-shadow: 0 0 3px rgba(0,0,0,0.6);
+}
+#header .mainnavi  ul.level_2 li a, #header .mod_navigation ul.level_2 li span { display: block; float: none; /* border-bottom: 1px solid #000; */ font-size: 20px; padding: 9px 20px; font-size: 14px; text-transform:none; margin: 0; text-align: left; border: none; color: rgba(0,0,0,0.6); }
+#header .mainnavi  ul.level_2 li a.last {border-bottom: 0; }
+#header ul.level_1 li { display: block; }
+#header .mainnavi  ul.level_2 li { display: block;float: none;}
+#header ul.level_1 li:hover ul.level_2, #header ul.level_1 li:hover  { /*display: block; */ visibility: visible; opacity: 1 }
+
+#header .mainnavi  ul.level_2,
+#header .mainnavi  ul.level_2 li a:hover, #header .mainnavi  ul.level_2 li span:hover { 
+-moz-transition: all .5s; 
+-webkit-transition: all .5s; 
+transition: all .5s; 
+}
+
+#header .mainnavi  ul.level_2 li a:hover, #header .mainnavi  ul.level_2 li span:hover { padding-left: 35px; }
+
+
+/* --- 3nd navi level -- */
+#header .mod_navigation ul { overflow:visible!important; float: right; }
+ul.level_2 li.submenu ul.level_3 { display: none; }
+ul.level_2 li.submenu:hover ul.level_3  { display: block; } 
+li.submenu ul.level_3 {   margin: -38px 0 0 -240px !important;   position: absolute;  width: 240px; z-index: 99; }
+
+
+
+/* galery */
+.ce_gallery img  { 
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	opacity: 1;
+	
+	-moz-transition: opacity .5s;
+	-webkit-transition: opacity .5s;
+	transition: opacity .5s;
+	
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+	
+} 
+.cboxElement { overflow:hidden; display: block; }
+.ce_gallery img:hover  { 
+-moz-opacity: .5; 
+-webkit-opacity: .5; 
+opacity: .5; 
+
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+
+/* quicknav */
+.mod_quicknav { padding: 0 0 15px; display: none; position: relative; z-index:99; float: right; }
+.mod_quicknav .formbody label { display: none; }
+.mod_quicknav select { text-align:center; border: 0 none; cursor: pointer; color: black; font-size: 16px;  }
+
+@media screen and (max-width: 980px) {
+	.fullwidth { width:100%!important; }
+	.mainnavi { display: none; }
+	.logo { margin: 0!important; float: left; }
+	.floatright { float: none; text-align:center; }
+	.mod_quicknav { display: block; }
+	.p-img { padding: 50px 20px!important; }
+	.logo { }
+	.logo img {margin: auto; }
+	figure.float_left, figure.float_right  { float: none!important; margin: 0 0 10px 0!important }
+	#slider .slider-control  { display: none;}
+}
+
+
+table {width: 100%; }
+table .label { display: table-cell; color: #000; }
+table.calendar  td, table th { text-align:center; padding: 7px!important; }
+table.calendar .header {background: none; color: #666; } 
+table.calendar thead { border-bottom: 2px solid #666; }
+tr th.label span { display: none; }
+
+/* events im kalender verwalten */
+table.calendar td.active { position: relative; }
+table.calendar td.active .event { display: none; display: none; }
+table.calendar td.active .header { color: white; cursor: pointer; }
+table.calendar td .event a { color: white; font-size: 12px; }
+table.calendar td.active:hover .event {
+  background: none repeat scroll 0 0 #353535;
+  color: white;
+  display: block;
+  height: auto;
+  margin: 5px 0;
+  padding: 10px;
+  position: absolute; top: 0;
+  top: 0;
+  width: 110px;
+  z-index: 99;
+}
+table.calendar th.previous a { padding: 5px 10px; font-size: 16px; float: left;  }
+table.calendar th.next a { padding: 5px 10px; font-size: 16px; float: right; }
+
+
+.scrolltop a { position: fixed; right: 20px; bottom: 20px; /* background: url("../img/scroll2top.png") center no-repeat rgba(255, 255, 255, .3); width: 64px; height: 64px; */ text-indent: -2000px; overflow: hidden; cursor: pointer;  }
+.formbody label { display: block; }
+.formbody .mandatory span.mandatory { position: absolute; right: 0; } 
+figure.float_left { float: left; }
+
+.ce_downloads li img { display: block; margin: auto; }
+.ce_downloads li { display: block; padding: 10px; margin: 10px; text-align:center; width: 23%; float: left; }
+.ce_downloads span { color: #666; display: block; }
+
+span.relevance { float:right; margin-top: 5px; }
+#header .mod_navigation ul.level_2 {  margin-top: 0; }
+
+figure { overflow: hidden; position: relative; }
+
+@media screen and (max-width: 450px) {
+	.fullwidth .content-slider .ce_text { padding: 80px 0!important; }
+	#slider h3 { font-size: 180%!important; }
+	h1:after { width: 30%!important; }
+}
+
+.mod_newslist .layout_latest ,
+.mod_eventlist .layout_teaser { margin-bottom: 20px; }
+.mod_eventlist  h2, .mod_newslist h2 { height: 30px; }
+.mod_eventlist .teaser,
+.mod_newslist .teaser {
+  margin-bottom: 10px;
+  overflow: hidden;
+  height: 100px;
+}
+
+.mod_eventlist .imglink { margin-bottom: 10px; display: block; padding-right: 20px; }
+
+/* slider */
+/* --- slider ---*/
+.ce_sliderStart {  position: relative; }
+.slider-control {  position: absolute;  top: 40%; width: 100%; height:auto; display: block; /* display: none; */ }
+/* .ce_sliderStart:hover .slider-control { display: block; } */
+
+
+.slider-control a, .slider-control .slider-menu {  display: inline-block;  position: absolute; padding: 15px; }
+.slider-control a.slider-prev:before,
+.slider-control a.slider-next:after { font-size: 24px; }
+.slider-control a.slider-prev:before {content:"\f104";}
+.slider-control a.slider-next:after {content:"\f105";}
+
+#banner .slider-control a, #banner .slider-control .slider-menu { top: -40px; color: white; }
+
+#kundenmeinungen .slider-control { top: auto; bottom: 70px; right: 0px; }
+
+#slider .slider-control .slider-prev ,
+#kundenmeinungen .slider-control .slider-prev { left: auto; right: 30px; }
+
+#banner .content-slider {   margin: 0 50px; }
+
+#slider .slider-control  { bottom: 50%; right: -100px; }
+#slider .slider-control a.slider-prev:before, #slider .slider-control a.slider-next:after { color: white; }
+
+p.error { padding: 5px; background: red; color: white; margin: 10px 0; }
+.mejs-controls, .mejs-layers { display: none; }
+.mejs-overlay-button { background: none; }
+
+ /* --- rightblocxk --- */
+.rightblock { padding: 15px; background: none; border: 1px solid #ddd; margin-bottom: 10px; }
+.rightblock h3 { border-bottom: 1px solid rgba(0, 0, 0, .1); padding-bottom: 10px;  }
+.me-plugin { position: relative; }
+
+/*----------------- */
+
+.pdf_link { margin-bottom: 10px; float: right; margin: 0 15px;}
+.pdf_link a { padding: 5px; border: 1px solid #e7e7e7; } 
+
+/*----------------- */
+
+.invisible { display: none!important; }
+
+/*----------------- */
+footer input.text { height: 33px; padding-left: 12px; }
+input.text, select, textarea { width: 100%; }
+
+.mejs-mediaelement { position: relative; }
+.mejs-container { margin: auto; }
+
+header .ce_form input.text {border: none; }
+
+.form-control {
+	-webkit-border-radius: 0; 
+	-moz-border-radius: 0; 
+	border-radius: 0; 
+}
+
+span.date:before,
+.mod_newslist time:before,
+.mod_newslist p.info:before,
+.mod_eventreader p.info:before,
+.mod_newsreader p.info:before { color: #58595D; }
+
+footer a { color: white; }
+
+.gap { margin-bottom: 60px; margin-top: 60px; }
